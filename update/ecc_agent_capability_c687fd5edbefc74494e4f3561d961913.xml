@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="ecc_agent_capability">
+    <ecc_agent_capability action="INSERT_OR_UPDATE">
+        <capability>REST - TCS - test environment</capability>
+        <sys_class_name>ecc_agent_capability</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 10:23:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c687fd5edbefc74494e4f3561d961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REST - TCS - test environment</sys_name>
+        <sys_package display_value="TCS Integration" source="x_tieoy_tcs_integr">51f3061ddbaf0f0494e4f3561d961970</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TCS Integration">51f3061ddbaf0f0494e4f3561d961970</sys_scope>
+        <sys_update_name>ecc_agent_capability_c687fd5edbefc74494e4f3561d961913</sys_update_name>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 10:23:04</sys_updated_on>
+        <value/>
+    </ecc_agent_capability>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_integration_command_name" label="Integration Command Name" language="en" table="var__m_var_dictionary_ab940edddb234f0494e4f3561d961923">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_integration_command_name</element>
+            <help/>
+            <hint>Name of the TCS Integration command.</hint>
+            <label>Integration Command Name</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_ab940edddb234f0494e4f3561d961923</name>
+            <plural>Integration Command Name</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2018-01-08 09:27:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>483eca59dba34f0494e4f3561d961918</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Integration Command Name</sys_name>
+            <sys_package display_value="TCS Integration" source="x_tieoy_tcs_integr">51f3061ddbaf0f0494e4f3561d961970</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TCS Integration">51f3061ddbaf0f0494e4f3561d961970</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_ab940edddb234f0494e4f3561d961923_u_integration_command_name_en</sys_update_name>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2018-01-08 09:40:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

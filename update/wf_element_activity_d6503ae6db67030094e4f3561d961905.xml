@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
+        <category/>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"call_id","type":"STRING","mandatory":false},{"name":"ci_sys_id","type":"STRING","mandatory":false},{"name":"command_name","type":"STRING","mandatory":false},{"name":"command_argument","type":"STRING","mandatory":false}]}</input_meta>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"800b6211dbe74f0494e4f3561d961919","web_service_message_function":"3b5879d2db230b4494e4f3561d961900","web_service_endpoint":"","parameters":"[{\"name\":\"call_id\",\"value\":\"${activityInput.call_id}\",\"additional_attribute\":\"\"},{\"name\":\"ci_sys_id\",\"value\":\"${activityInput.ci_sys_id}\",\"additional_attribute\":\"\"},{\"name\":\"command_name\",\"value\":\"${activityInput.command_name}\",\"additional_attribute\":\"\"},{\"name\":\"command_argument\",\"value\":\"${activityInput.command_argument}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f,c687fd5edbefc74494e4f3561d961913","use_mid_server":"true","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <local_variables/>
+        <name>POST test environment</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"status_code","type":"STRING"},{"name":"error","type":"STRING"}]}</output_meta>
+        <output_process_script/>
+        <output_transform>[{"toLink":"activityOutput.status_code","description":"","to":"status_code","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.status_code","from":"${executionResult.status_code}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""},{"toLink":"activityOutput.error","description":"","to":"error","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.error","from":"${executionResult.error}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""}]</output_transform>
+        <processing_script/>
+        <sample_payloads>{"executionResult.status_code":{"payload":200,"type":"direct"},"executionResult.header":{"payload":"{\"Server\":\"WebSphere CastIron Server\",\"Content-Length\":\"46\",\"Date\":\"Fri, 12 Jan 2018 09:22:29 GMT\",\"Content-Type\":\"text/plain\"}","type":"direct"},"executionResult.body":{"payload":"Message accepted by the Integration Appliance.","type":"direct"},"executionResult.error":{"payload":"null","type":"direct"}}</sample_payloads>
+        <short_description/>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-12 09:08:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d6503ae6db67030094e4f3561d961905</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>POST test environment</sys_name>
+        <sys_package display_value="TCS Integration" source="x_tieoy_tcs_integr">51f3061ddbaf0f0494e4f3561d961970</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TCS Integration">51f3061ddbaf0f0494e4f3561d961970</sys_scope>
+        <sys_update_name>wf_element_activity_d6503ae6db67030094e4f3561d961905</sys_update_name>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-18 09:41:03</sys_updated_on>
+        <version_container_id>d52b315adb230b4494e4f3561d96192b</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=d6503ae6db67030094e4f3561d961905"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>false</published>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-12 09:08:54</sys_created_on>
+        <sys_id>6a503ae6db67030094e4f3561d961906</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-18 09:41:03</sys_updated_on>
+        <valid_from>2018-01-12 09:40:06</valid_from>
+        <valid_to/>
+        <version>2</version>
+        <version_container_id>d52b315adb230b4494e4f3561d96192b</version_container_id>
+        <wf_element_definition display_value="POST test environment">d6503ae6db67030094e4f3561d961905</wf_element_definition>
+    </wf_versionable>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="POST test environment">d6503ae6db67030094e4f3561d961905</activity_definition>
+        <condition>activityOutput.status_code == 200</condition>
+        <derived_definition/>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-12 09:39:39</sys_created_on>
+        <sys_id>21603e2adb67030094e4f3561d96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-12 09:39:39</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="POST test environment">d6503ae6db67030094e4f3561d961905</activity_definition>
+        <condition/>
+        <derived_definition/>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Error</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-12 09:39:39</sys_created_on>
+        <sys_id>2c47fa2edb67030094e4f3561d9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-12 09:39:39</sys_updated_on>
+    </wf_condition_default>
+    <wf_versionable action="update_multiple" query="version_container_id=d52b315adb230b4494e4f3561d96192b^sys_id!=6a503ae6db67030094e4f3561d961906^version&lt;2">
+        <published>false</published>
+    </wf_versionable>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=d52b315adb230b4494e4f3561d96192b">
+        <new_activity_definition>d6503ae6db67030094e4f3561d961905</new_activity_definition>
+        <out_of_date>true</out_of_date>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+    </wf_activity>
+</record_update>

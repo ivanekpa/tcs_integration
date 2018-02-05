@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>command_argument</name>
+        <rest_message_function display_value="">562b0fd1db2b4f0494e4f3561d961933</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-08 14:07:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fd5e0b95db2f4f0494e4f3561d961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>command_argument</sys_name>
+        <sys_package display_value="TCS Integration" source="x_tieoy_tcs_integr">51f3061ddbaf0f0494e4f3561d961970</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TCS Integration">51f3061ddbaf0f0494e4f3561d961970</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_fd5e0b95db2f4f0494e4f3561d961957</sys_update_name>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-08 14:07:31</sys_updated_on>
+        <type>string</type>
+        <value/>
+    </sys_rest_message_fn_parameters>
+</record_update>

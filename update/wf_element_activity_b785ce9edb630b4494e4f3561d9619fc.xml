@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="Run Script">d0c7fe11eb013100fc5e8a7af106fee0</base_provider>
+        <category/>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_runscript.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"location","type":"STRING","mandatory":false}]}</input_meta>
+        <input_process_script/>
+        <input_transform/>
+        <local_variables/>
+        <name>Switch by location</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"location","type":"STRING"}]}</output_meta>
+        <output_process_script/>
+        <output_transform/>
+        <processing_script><![CDATA[activityOutput.location = activityInput.location.toLowerCase();]]></processing_script>
+        <sample_payloads>{}</sample_payloads>
+        <short_description/>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 11:23:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b785ce9edb630b4494e4f3561d9619fc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Switch by location</sys_name>
+        <sys_package display_value="TCS Integration" source="x_tieoy_tcs_integr">51f3061ddbaf0f0494e4f3561d961970</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TCS Integration">51f3061ddbaf0f0494e4f3561d961970</sys_scope>
+        <sys_update_name>wf_element_activity_b785ce9edb630b4494e4f3561d9619fc</sys_update_name>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 11:52:19</sys_updated_on>
+        <version_container_id>caac399edb230b4494e4f3561d961983</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=b785ce9edb630b4494e4f3561d9619fc"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>false</published>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 11:23:27</sys_created_on>
+        <sys_id>b785ce9edb630b4494e4f3561d9619fd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 11:52:18</sys_updated_on>
+        <valid_from>2018-01-11 11:24:06</valid_from>
+        <valid_to/>
+        <version>2</version>
+        <version_container_id>caac399edb230b4494e4f3561d961983</version_container_id>
+        <wf_element_definition display_value="Switch by location">b785ce9edb630b4494e4f3561d9619fc</wf_element_definition>
+    </wf_versionable>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Switch by location">b785ce9edb630b4494e4f3561d9619fc</activity_definition>
+        <condition>activityOutput.location == 'test'</condition>
+        <derived_definition>38bdb5dedb230b4494e4f3561d96194c</derived_definition>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>test environment</name>
+        <order>300</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 11:23:28</sys_created_on>
+        <sys_id>778502dedb630b4494e4f3561d961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 11:23:28</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Switch by location">b785ce9edb630b4494e4f3561d9619fc</activity_definition>
+        <condition/>
+        <derived_definition>00cdb5dedb230b4494e4f3561d9619ee</derived_definition>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Unknown</name>
+        <order>400</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 11:23:27</sys_created_on>
+        <sys_id>b785ce9edb630b4494e4f3561d9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 11:23:27</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Switch by location">b785ce9edb630b4494e4f3561d9619fc</activity_definition>
+        <condition>activityOutput.location == 'sweden'</condition>
+        <derived_definition>47adb5dedb230b4494e4f3561d96191f</derived_definition>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Sweden</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 11:23:28</sys_created_on>
+        <sys_id>bb8502dedb630b4494e4f3561d961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 11:23:28</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Switch by location">b785ce9edb630b4494e4f3561d9619fc</activity_definition>
+        <condition>activityOutput.location == 'finland'</condition>
+        <derived_definition>d7ac3d9edb230b4494e4f3561d961978</derived_definition>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Finland</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 11:23:28</sys_created_on>
+        <sys_id>ff8502dedb630b4494e4f3561d961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 11:23:28</sys_updated_on>
+    </wf_condition_default>
+    <wf_versionable action="update_multiple" query="version_container_id=caac399edb230b4494e4f3561d961983^sys_id!=b785ce9edb630b4494e4f3561d9619fd^version&lt;2">
+        <published>false</published>
+    </wf_versionable>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=caac399edb230b4494e4f3561d961983">
+        <new_activity_definition>b785ce9edb630b4494e4f3561d9619fc</new_activity_definition>
+        <out_of_date>true</out_of_date>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+    </wf_activity>
+</record_update>

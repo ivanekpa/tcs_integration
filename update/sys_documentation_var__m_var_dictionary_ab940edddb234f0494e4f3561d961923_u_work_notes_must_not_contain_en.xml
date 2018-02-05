@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_work_notes_must_not_contain" label="Work notes must not contain" language="en" table="var__m_var_dictionary_ab940edddb234f0494e4f3561d961923">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_work_notes_must_not_contain</element>
+            <help/>
+            <hint/>
+            <label>Work notes must not contain</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_ab940edddb234f0494e4f3561d961923</name>
+            <plural>Work notes must not contain</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2018-01-08 10:33:58</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6d7d1a1ddb274f0494e4f3561d96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Work notes must not contain</sys_name>
+            <sys_package display_value="TCS Integration" source="x_tieoy_tcs_integr">51f3061ddbaf0f0494e4f3561d961970</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TCS Integration">51f3061ddbaf0f0494e4f3561d961970</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_ab940edddb234f0494e4f3561d961923_u_work_notes_must_not_contain_en</sys_update_name>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2018-01-08 10:33:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

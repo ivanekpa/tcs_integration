@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="wf_workflow_version" relationship="8d56845137232100b2cf04368e41f1c8" sys_domain="global" table="var_dictionary" version="2" view="diagrammer">
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>var_dictionary</name>
+            <parent>wf_workflow_version</parent>
+            <position/>
+            <relationship display_value="Workflow Variables-&gt;Workflow Version">8d56845137232100b2cf04368e41f1c8</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2018-01-08 09:46:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d821615dbe34f0494e4f3561d961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TCS Integration">51f3061ddbaf0f0494e4f3561d961970</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2018-01-08 09:46:09</sys_updated_on>
+            <sys_user display_value="Kelnar Admin Jiri">d03908124f64a200fba400818110c774</sys_user>
+            <view display_value="Diagrammer" name="diagrammer">295b14923700120015cfd3e853990edb</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

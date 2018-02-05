@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="Run Script">d0c7fe11eb013100fc5e8a7af106fee0</base_provider>
+        <category/>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_runscript.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"location","type":"STRING","mandatory":false}]}</input_meta>
+        <input_process_script/>
+        <input_transform/>
+        <local_variables/>
+        <name>Switch by location</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"location","type":"STRING"}]}</output_meta>
+        <output_process_script/>
+        <output_transform/>
+        <processing_script><![CDATA[activityOutput.location = activityInput.location;]]></processing_script>
+        <sample_payloads>{}</sample_payloads>
+        <short_description/>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 10:44:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3e9c3d9edb230b4494e4f3561d96196f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Switch by location</sys_name>
+        <sys_package display_value="TCS Integration" source="x_tieoy_tcs_integr">51f3061ddbaf0f0494e4f3561d961970</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TCS Integration">51f3061ddbaf0f0494e4f3561d961970</sys_scope>
+        <sys_update_name>wf_element_activity_3e9c3d9edb230b4494e4f3561d96196f</sys_update_name>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 11:24:05</sys_updated_on>
+        <version_container_id>caac399edb230b4494e4f3561d961983</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e9c3d9edb230b4494e4f3561d96196f"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>false</published>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 10:44:33</sys_created_on>
+        <sys_id>8aac399edb230b4494e4f3561d961984</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 11:24:05</sys_updated_on>
+        <valid_from>2018-01-11 10:50:48</valid_from>
+        <valid_to/>
+        <version>1</version>
+        <version_container_id>caac399edb230b4494e4f3561d961983</version_container_id>
+        <wf_element_definition display_value="Switch by location">3e9c3d9edb230b4494e4f3561d96196f</wf_element_definition>
+    </wf_versionable>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Switch by location">3e9c3d9edb230b4494e4f3561d96196f</activity_definition>
+        <condition/>
+        <derived_definition/>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Unknown</name>
+        <order>400</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 10:50:47</sys_created_on>
+        <sys_id>00cdb5dedb230b4494e4f3561d9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 10:50:47</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Switch by location">3e9c3d9edb230b4494e4f3561d96196f</activity_definition>
+        <condition>activityOutput.location == 'test'</condition>
+        <derived_definition/>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>test environment</name>
+        <order>300</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 10:50:47</sys_created_on>
+        <sys_id>38bdb5dedb230b4494e4f3561d96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 10:50:47</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Switch by location">3e9c3d9edb230b4494e4f3561d96196f</activity_definition>
+        <condition>activityOutput.location == 'sweden'</condition>
+        <derived_definition/>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Sweden</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 10:50:47</sys_created_on>
+        <sys_id>47adb5dedb230b4494e4f3561d96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 10:50:47</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Switch by location">3e9c3d9edb230b4494e4f3561d96196f</activity_definition>
+        <condition>activityOutput.location == 'finland'</condition>
+        <derived_definition/>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Finland</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-11 10:50:47</sys_created_on>
+        <sys_id>d7ac3d9edb230b4494e4f3561d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-11 10:50:47</sys_updated_on>
+    </wf_condition_default>
+</record_update>
