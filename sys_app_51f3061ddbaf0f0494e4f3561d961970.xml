@@ -23,14 +23,14 @@
         <sys_created_by>admin.kelnajir</sys_created_by>
         <sys_created_on>2018-01-08 08:42:33</sys_created_on>
         <sys_id>51f3061ddbaf0f0494e4f3561d961970</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin.kelnajir</sys_updated_by>
-        <sys_updated_on>2018-01-18 09:48:01</sys_updated_on>
+        <sys_updated_on>2018-02-06 06:58:01</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </sys_app>
 </record_update>
